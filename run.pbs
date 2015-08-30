@@ -1,0 +1,9 @@
+#PBS -q tuc
+#PBS -N 2.02
+#PBS -l nodes=4:ppn=4
+#PBS -e localhost:$HOME/pbs_logs/myjob.err
+#PBS -o localhost:$HOME/pbs_logs/myjob.log
+#PBS -M chbabalis@softnet.tuc.gr
+
+pbsdsh /bin/sh /storage/tuclocal/babalis/source/trunk/test_sim.sh
+

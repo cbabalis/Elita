@@ -1,0 +1,7 @@
+configobj (easy_install package) # reading/writing configuration files
+enum    # i don't remember if it's an easy_install package, but i assume it is.
+        # else, search for enum. (it's from enum import Enum)
+deepcopy
+struct  # for reading the binary file
+os
+sys

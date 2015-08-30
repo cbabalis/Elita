@@ -1,0 +1,60 @@
+fix network so as to do multicast DONE
+    - read from list and send   DONE
+make second step of processing stage of decentralized algorithm DONE
+test decentralized algorithm    DONE
+more complicated tests for decentralized algorithm DONE
+correct the isMonochromatic function DONE
+make the simulation final DONE
+fix network so as to be able to send from list of recps (line 157)  DONE
+code improvements in network DONE
+Prepare network module so as to accept a lot of protocols   DONE
+
+make monitoredfunction class    DONE
+implement monitoredfunction in a new class  DONE
+insert moniotoredFunction class into ALL protocols  DONE
+make this new simulation for decentralized run  DONE
+
+implement coordbased protocol
+    - coordinator:
+        * init  DONE
+        * arrival of new data   DONE
+        * receipt of REP msg    DONE
+        * solve the waiting issues
+        * more code for protocol choice DONE
+        * unittesting
+        * balancing process:
+            + calc balanced vector  DONE
+            + step 2
+            + step 3
+    - node:
+        * init   DONE
+        * arrival of new data   DONE
+        * receipt of REQ msg    DONE
+        * receipt of NEW-EST msg    DONE
+        * receipt of ADJ-SLK msg    DONE
+        * unittesting
+        * solve waiting issues  DONE
+transfer test.py to simulation  DONE
+make coordclass in simulation run perfectly for all cases   DONE
+tidy up files a bit DONE
+unittest coordbased files in simulation DONE
+
+
+implement ACK messages
+implement the three cases as given by @vsam
+implement results reception as discussed with @vsam
+unite all modules
+create all modules
+
+
+remove node/old-nodeprocess.py
+remove simulation/old-network.py
+remove skat.py
+
+
+
+study how to generate API
+generate API
+make abstract classes
+comment and doxygen
+
